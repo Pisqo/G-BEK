@@ -1,1 +1,21 @@
 # G-BEK
+   //Klavyeden girilen 5 adet sayının tek mi çift mi olduğunu ekrana yazan program//
+   int arr[]=new int[5];
+		
+		for(int i=0;i<5;i++) {
+			System.out.println("Lütfen Sayı Giriniz:");
+			arr[i]=sc.nextInt();
+		}
+		
+		System.out.print("\nÇift Sayılar:");
+		for(int j=0;j<5;j++) {
+			if(arr[j]%2==0) {
+				System.out.print(arr[j]+",");
+			}
+			
+		}
+		System.out.print("\nTek Sayılar:");
+		for(int k=0;k<5;k++) {
+			if(arr[k]%2==1) {
+				System.out.print(arr[k]+",");
+			}
