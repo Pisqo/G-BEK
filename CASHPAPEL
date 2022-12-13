@@ -1,6 +1,7 @@
 # G-BEK
    //Klavyeden girilen 5 adet sayının tek mi çift mi olduğunu ekrana yazan program//
-   int arr[]=new int[5];
+   
+   	int arr[]=new int[5];
 		
 		for(int i=0;i<5;i++) {
 			System.out.println("Lütfen Sayı Giriniz:");
