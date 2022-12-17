@@ -20,3 +20,4 @@
 			if(arr[k]%2==1) {
 				System.out.print(arr[k]+",");
 			}
+	
